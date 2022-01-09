@@ -1,0 +1,67 @@
+html {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+p {
+  color: green;
+  width: 500px;
+  border: 1px solid black;
+}
+
+li, h1 {
+  color: blue;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+p#test-id {
+  color: pink;
+}
+
+p.test-class {
+  color: aqua;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+a#test-pseudo-id:hover {
+  background-color: violet;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  background-color: pink;
+  color: blue;
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+}
